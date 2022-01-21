@@ -7,11 +7,14 @@ class Director:
         pass
         
     def begin_game(self):
-        pass
+        #A loop That uses all the functions, 
 
     def user_input(self):
+        #Asks if the user is playing again
+        continue_playing = input("Play Again? [y/n] ")
+        self.is_playing = (continue_playing == "y")
+        #Gathers the Users input on weather they think it will be higher or lower
         card_guess = input("Will the next card be higher or lower? H/L")
-        self.is_playing = (card_guess == "H") or (card_guess == "L"
        
     def update(self):
         pass
