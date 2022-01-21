@@ -5,12 +5,12 @@ class Director:
 
     def set(self):
         pass
-
+        
     def begin_game(self):
         pass
 
     def user_input(self):
-        pass
+        card_guess = input("Will the next card be higher or lower? H/L")
        
     def update(self):
         pass
