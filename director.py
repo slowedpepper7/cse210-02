@@ -7,7 +7,7 @@ class Director:
         pass
         
     def begin_game(self):
-        #A loop That uses all the functions, 
+        #A loop That uses all the functions, until the game is over. Score gets to 0, or they choose to not continue 
 
     def user_input(self):
         #Asks if the user is playing again
@@ -18,6 +18,8 @@ class Director:
        
     def update(self):
         pass
+        #Updates the Score
 
     def do_output(self):
         pass
+        #Displays the Score
