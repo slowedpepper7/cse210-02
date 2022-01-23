@@ -2,12 +2,13 @@ import random
 
 
 class Card:
-    
 
-    def set(self):
+    def __init__(self):
         self.value = 0
         self.points = 0
-    def generate(self):
-        pass
-        #Assigns Points and Creates a Card
+
+    def draw(self):
+        self.value = random.randint(1, 13)
+        return self.value
+        
             
